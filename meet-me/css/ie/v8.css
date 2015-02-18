@@ -1,26 +1,74 @@
 /*
-	Aerial by HTML5 UP
+	Escape Velocity by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Header */
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
 
-	#header nav a {
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select,
+	form textarea,
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.button,
+	#intro > .style2,
+	#copyright ul,
+	#nav > ul,
+	.dropotron
+	{
 		position: relative;
-		border: solid 1px white;
-		border-radius: 100%;
-		-ms-behavior: url("css/ie/PIE.htc");
+		-ms-behavior: url('css/ie/PIE.htc');
 	}
 
-		#header nav a:before {
-			border: 0;
+	/* Section/Article */
+
+		section,
+		article
+		{
 		}
+		
+			section > .last-child,
+			article > .last-child
+			{
+				margin-bottom: 0;
+			}
 
-/* Footer */
+			section.last-child,
+			article.last-child
+			{
+				margin-bottom: 0;
+			}
+		
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
 
-	#footer {
-		background-image: url("images/footer.png");
-		background-position: bottom left;
-		background-repeat: repeat-x;
+	.wrapper
+	{
+	}
+
+		.wrapper .title:before,
+		.wrapper .title:after
+		{
+			display: none;
+    	}
+ 
+ 	#header-wrapper
+	{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+	}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 0;
 	}
