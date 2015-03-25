@@ -4,7 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+###Web Design
+- WordPress.
+- Dreamweaver.
+- Firework.
+- Illustrator.
+- Squarespace.
 
 ### More Information
 
